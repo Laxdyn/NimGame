@@ -47,3 +47,15 @@ C:\Users\Laxdyn\Principles of Software Development\NimGroup\NimGame\Nim\Nim\obj\
 C:\Users\Laxdyn\Principles of Software Development\NimGroup\NimGame\Nim\Nim\obj\Debug\Nim.g.resources
 C:\Users\Laxdyn\Principles of Software Development\NimGroup\NimGame\Nim\Nim\obj\Debug\Nim.Properties.Resources.resources
 C:\Users\Laxdyn\Principles of Software Development\NimGroup\NimGame\Nim\Nim\obj\Debug\Nim.csproj.GenerateResource.Cache
+C:\Users\Errlin Deleon\Google Drive\CSC130\NimGame\Nim\Nim\obj\Debug\Nim.csprojResolveAssemblyReference.cache
+C:\Users\Errlin Deleon\Google Drive\CSC130\NimGame\Nim\Nim\obj\Debug\DifficultyWindow.g.cs
+C:\Users\Errlin Deleon\Google Drive\CSC130\NimGame\Nim\Nim\obj\Debug\GameTypeWindow.g.cs
+C:\Users\Errlin Deleon\Google Drive\CSC130\NimGame\Nim\Nim\obj\Debug\GameWindow.g.cs
+C:\Users\Errlin Deleon\Google Drive\CSC130\NimGame\Nim\Nim\obj\Debug\InstructionsWindow.g.cs
+C:\Users\Errlin Deleon\Google Drive\CSC130\NimGame\Nim\Nim\obj\Debug\MainWindow.g.cs
+C:\Users\Errlin Deleon\Google Drive\CSC130\NimGame\Nim\Nim\obj\Debug\WinnerWindow.g.cs
+C:\Users\Errlin Deleon\Google Drive\CSC130\NimGame\Nim\Nim\obj\Debug\App.g.cs
+C:\Users\Errlin Deleon\Google Drive\CSC130\NimGame\Nim\Nim\obj\Debug\Nim_MarkupCompile.cache
+C:\Users\Errlin Deleon\Google Drive\CSC130\NimGame\Nim\Nim\obj\Debug\Nim_MarkupCompile.lref
+C:\Users\Errlin Deleon\Google Drive\CSC130\NimGame\Nim\Nim\obj\Debug\Nim.exe
+C:\Users\Errlin Deleon\Google Drive\CSC130\NimGame\Nim\Nim\obj\Debug\Nim.pdb
