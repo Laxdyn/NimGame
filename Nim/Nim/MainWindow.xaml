@@ -5,10 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Nim"
         mc:Ignorable="d"
-        Title="Game Of Nim" Height="350" Width="525">
+        Title="Game Of Nim" Height="350" Width="525" Background="DarkRed">
     <StackPanel>
-        <Button Width="200" Height="75" Margin="10" Click="StartGameButton">New Game</Button>
-        <Button Width="200" Height="75" Margin="10" Click="InstructionsButton">How To Play</Button>
-        <Button Width="200" Height="75" Margin="10" Click="ExitGame">Exit Game</Button>
+        <Label HorizontalAlignment="Center" Margin="0,20,0,0" FontWeight="Bold" FontSize="35" Foreground="Yellow" Content="Nim"/>
+        <Button Width="200" Height="50" HorizontalAlignment="Center" Margin="0,15,0,5" Foreground="Yellow" BorderThickness="1" BorderBrush="Yellow" Background="DarkRed" Click="StartGameButton" Content="New Game"/>
+        <Button Width="200" Height="50" HorizontalAlignment="Center" Margin="0,15,0,5" Foreground="Yellow" BorderThickness="1" BorderBrush="Yellow" Background="DarkRed" Click="InstructionsButton" Content="How To Play"/>
+        <Button Width="200" Height="50" HorizontalAlignment="Center" Margin="0,15,0,10" Foreground="Yellow" BorderThickness="1" BorderBrush="Yellow" Background="DarkRed" Click="ExitGame" Content="Exit Game"/>
     </StackPanel>
 </Window>

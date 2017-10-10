@@ -5,14 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Nim"
         mc:Ignorable="d"
-        Title="Game Of Nim" Height="350" Width="525">
+        Title="Game Of Nim" Height="350" Width="525" Background="DarkRed">
 
     <StackPanel>
-        <Button Width="100" Height="50" HorizontalAlignment="Left" Click="BackToMainWindow">Back</Button>
+        <Button Width="60" Height="30" HorizontalAlignment="Left" Margin="10,10,0,0" Click="BackToMainWindow">Back</Button>
         <StackPanel>
-            <Button Width="200" Height="75"  Click="Easy" Margin="0,0,0,10" Content="Easy"/>
-            <Button Width="200" Height="75"  Click="Medium" Margin="10" Content="Medium"/>
-            <Button Width="200" Height="75"  Click="Hard" Margin="10" Content="Hard"/>
+            <Label HorizontalAlignment="Center" FontWeight="Bold" FontSize="25" Foreground="Yellow" Content="Select Difficulty"/>
+            <Button Width="200" Height="50" HorizontalAlignment="Center" Margin="0,10,0,5" Foreground="Yellow" BorderThickness="1" BorderBrush="Yellow" Background="DarkRed" Click="Easy" Content="Easy"/>
+            <Button Width="200" Height="50" HorizontalAlignment="Center" Margin="0,10,0,5" Foreground="Yellow" BorderThickness="1" BorderBrush="Yellow" Background="DarkRed" Click="Medium" Content="Medium"/>
+            <Button Width="200" Height="50" HorizontalAlignment="Center" Margin="0,10,0,5" Foreground="Yellow" BorderThickness="1" BorderBrush="Yellow" Background="DarkRed" Click="Hard" Content="Hard"/>
         </StackPanel>
     </StackPanel>
 </Window>

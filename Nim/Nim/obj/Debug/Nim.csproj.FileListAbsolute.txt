@@ -23,3 +23,27 @@ C:\Users\Errlin Deleon\Google Drive\CSC130\Nim\Nim\obj\Debug\Nim.csproj.Generate
 C:\Users\Errlin Deleon\Google Drive\CSC130\Nim\Nim\obj\Debug\Nim.csproj.CoreCompileInputs.cache
 C:\Users\Errlin Deleon\Google Drive\CSC130\Nim\Nim\obj\Debug\Nim.exe
 C:\Users\Errlin Deleon\Google Drive\CSC130\Nim\Nim\obj\Debug\Nim.csprojResolveAssemblyReference.cache
+C:\Users\Laxdyn\Principles of Software Development\NimGroup\NimGame\Nim\Nim\bin\Debug\Nim.exe.config
+C:\Users\Laxdyn\Principles of Software Development\NimGroup\NimGame\Nim\Nim\obj\Debug\Nim.exe
+C:\Users\Laxdyn\Principles of Software Development\NimGroup\NimGame\Nim\Nim\obj\Debug\Nim.pdb
+C:\Users\Laxdyn\Principles of Software Development\NimGroup\NimGame\Nim\Nim\bin\Debug\Nim.exe
+C:\Users\Laxdyn\Principles of Software Development\NimGroup\NimGame\Nim\Nim\bin\Debug\Nim.pdb
+C:\Users\Laxdyn\Principles of Software Development\NimGroup\NimGame\Nim\Nim\obj\Debug\Nim.csprojResolveAssemblyReference.cache
+C:\Users\Laxdyn\Principles of Software Development\NimGroup\NimGame\Nim\Nim\obj\Debug\DifficultyWindow.g.cs
+C:\Users\Laxdyn\Principles of Software Development\NimGroup\NimGame\Nim\Nim\obj\Debug\GameTypeWindow.g.cs
+C:\Users\Laxdyn\Principles of Software Development\NimGroup\NimGame\Nim\Nim\obj\Debug\GameWindow.g.cs
+C:\Users\Laxdyn\Principles of Software Development\NimGroup\NimGame\Nim\Nim\obj\Debug\InstructionsWindow.g.cs
+C:\Users\Laxdyn\Principles of Software Development\NimGroup\NimGame\Nim\Nim\obj\Debug\MainWindow.g.cs
+C:\Users\Laxdyn\Principles of Software Development\NimGroup\NimGame\Nim\Nim\obj\Debug\WinnerWindow.g.cs
+C:\Users\Laxdyn\Principles of Software Development\NimGroup\NimGame\Nim\Nim\obj\Debug\App.g.cs
+C:\Users\Laxdyn\Principles of Software Development\NimGroup\NimGame\Nim\Nim\obj\Debug\Nim_MarkupCompile.cache
+C:\Users\Laxdyn\Principles of Software Development\NimGroup\NimGame\Nim\Nim\obj\Debug\Nim_MarkupCompile.lref
+C:\Users\Laxdyn\Principles of Software Development\NimGroup\NimGame\Nim\Nim\obj\Debug\DifficultyWindow.baml
+C:\Users\Laxdyn\Principles of Software Development\NimGroup\NimGame\Nim\Nim\obj\Debug\GameTypeWindow.baml
+C:\Users\Laxdyn\Principles of Software Development\NimGroup\NimGame\Nim\Nim\obj\Debug\GameWindow.baml
+C:\Users\Laxdyn\Principles of Software Development\NimGroup\NimGame\Nim\Nim\obj\Debug\InstructionsWindow.baml
+C:\Users\Laxdyn\Principles of Software Development\NimGroup\NimGame\Nim\Nim\obj\Debug\MainWindow.baml
+C:\Users\Laxdyn\Principles of Software Development\NimGroup\NimGame\Nim\Nim\obj\Debug\WinnerWindow.baml
+C:\Users\Laxdyn\Principles of Software Development\NimGroup\NimGame\Nim\Nim\obj\Debug\Nim.g.resources
+C:\Users\Laxdyn\Principles of Software Development\NimGroup\NimGame\Nim\Nim\obj\Debug\Nim.Properties.Resources.resources
+C:\Users\Laxdyn\Principles of Software Development\NimGroup\NimGame\Nim\Nim\obj\Debug\Nim.csproj.GenerateResource.Cache

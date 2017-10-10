@@ -5,15 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Nim"
         mc:Ignorable="d"
-        Title="Game Of Nim" Height="350" Width="525">
+        Title="Game Of Nim" Height="350" Width="525" Background="DarkRed">
     <StackPanel>
-        <Button HorizontalAlignment="Left" Width="100" Height="50" Content="Back" Click="BackToMainMenu"/>
+        <Button Width="60" Height="30" Content="Back" Click="BackToMainMenu" Margin="10,10,0,0" HorizontalAlignment="Left"/>
         <StackPanel>
-            <Label FontWeight="Bold" FontSize="25">HOW TO PLAY</Label>
-            <Label>Nim is played by starting with rows of objects that you can pick up. Players take must take turns</Label>
-            <Label>picking up any number of objects from one of the piles. Once the pile is picked then that is the</Label>
-            <Label>only pile the players can choose from until their next turn. Whoever takes the last object left</Label>
-            <Label>loses and the other player or computer wins.</Label>
+            <Label HorizontalAlignment="Center" FontWeight="Bold" FontSize="25" Foreground="Yellow" Content="HOW TO PLAY"/>
+            <TextBox x:Name="textBox" HorizontalContentAlignment="Center" Height="175" Margin="50,20,50,20" FontSize="18" TextWrapping="Wrap" 
+                     Text="Nim is played with piles of various numbers of pieces. Players take turns picking one of the piles and removing pieces. Once the pile is picked, that is the only pile the players can choose from until their next turn. Whichever player takes the last piece loses." 
+                     BorderThickness="1" BorderBrush="Yellow" Background="DarkRed" Foreground="Yellow"/>
         </StackPanel>
-    </StackPanel>
+            </StackPanel>
 </Window>
