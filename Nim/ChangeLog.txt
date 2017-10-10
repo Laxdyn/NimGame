@@ -1,0 +1,7 @@
+Had to add a boolean to the main page that checks for pvp or pvc
+In uml I called the MainWindow "Main" instead of "MainWindow"
+Needed to add a CheckForWin method that returns false
+Needed to add boolean to check whose turn it is
+Needed to split MainWindow into multiple different windows
+All the properties in the MainWindow goes to other windows
+Displaying winner will be on a message box due to lack to time

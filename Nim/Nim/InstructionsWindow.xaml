@@ -1,0 +1,19 @@
+﻿<Window x:Class="Nim.InstructionsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Nim"
+        mc:Ignorable="d"
+        Title="Game Of Nim" Height="350" Width="525">
+    <StackPanel>
+        <Button HorizontalAlignment="Left" Width="100" Height="50" Content="Back" Click="BackToMainMenu"/>
+        <StackPanel>
+            <Label FontWeight="Bold" FontSize="25">HOW TO PLAY</Label>
+            <Label>Nim is played by starting with rows of objects that you can pick up. Players take must take turns</Label>
+            <Label>picking up any number of objects from one of the piles. Once the pile is picked then that is the</Label>
+            <Label>only pile the players can choose from until their next turn. Whoever takes the last object left</Label>
+            <Label>loses and the other player or computer wins.</Label>
+        </StackPanel>
+    </StackPanel>
+</Window>
