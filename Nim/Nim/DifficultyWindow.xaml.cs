@@ -19,11 +19,20 @@ namespace Nim
     /// </summary>
     public partial class DifficultyWindow : Window
     {
+
+        /// <summary>
+        /// Initializes the Difficulty Window
+        /// </summary>
         public DifficultyWindow()
         {
             InitializeComponent();
         }
 
+        /// <summary>
+        /// Sends the next window the information for easy
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void Easy(object sender, RoutedEventArgs e)
         {
             GameTypeWindow gtw = new GameTypeWindow(1);
@@ -31,6 +40,11 @@ namespace Nim
             this.Close();
         }
 
+        /// <summary>
+        /// Sends the next window the information for medium
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void Medium(object sender, RoutedEventArgs e)
         {
             GameTypeWindow gtw = new GameTypeWindow(2);
@@ -38,6 +52,11 @@ namespace Nim
             this.Close();
         }
 
+        /// <summary>
+        /// Sends the next window the information for hard
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void Hard(object sender, RoutedEventArgs e)
         {
             GameTypeWindow gtw = new GameTypeWindow(3);
@@ -46,6 +65,11 @@ namespace Nim
 
         }
 
+        /// <summary>
+        /// Goes back to the main window
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void BackToMainWindow(object sender, RoutedEventArgs e)
         {
             MainWindow mw = new MainWindow();

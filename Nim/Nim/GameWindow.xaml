@@ -6,7 +6,6 @@
         xmlns:local="clr-namespace:Nim"
         mc:Ignorable="d"
         Title="Game Of Nim" Height="350" Width="525">
-    <StackPanel x:Name="MainPanel">
-        
+    <StackPanel x:Name="MainPanel" Background="DarkRed">
     </StackPanel>
 </Window>

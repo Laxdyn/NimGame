@@ -20,12 +20,22 @@ namespace Nim
     public partial class GameTypeWindow : Window
     {
         int difficulty = 0;
+
+        /// <summary>
+        /// Initializes GameTypeWindow
+        /// </summary>
+        /// <param name="difficulty"></param>
         public GameTypeWindow(int difficulty)
         {
             InitializeComponent();
             this.difficulty = difficulty;
         }
 
+        /// <summary>
+        /// Goes back to previous window
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void BackToDifficulty(object sender, RoutedEventArgs e)
         {
             DifficultyWindow dw = new DifficultyWindow();
@@ -33,16 +43,26 @@ namespace Nim
             this.Close();
         }
 
+        /// <summary>
+        /// Select this if there are 2 players
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void PvP(object sender, RoutedEventArgs e)
         {
-            GameWindow gw = new GameWindow(difficulty, false);
+            EnterNameWindow gw = new EnterNameWindow(difficulty, false);
             gw.Show();
             this.Close();
         }
 
+        /// <summary>
+        /// Select this if there is only 1 player
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void PvC(object sender, RoutedEventArgs e)
         {
-            GameWindow gw = new GameWindow(difficulty, true);
+            EnterNameWindow gw = new EnterNameWindow(difficulty, true);
             gw.Show();
             this.Close();
         }

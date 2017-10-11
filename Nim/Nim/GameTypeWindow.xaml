@@ -6,11 +6,12 @@
         xmlns:local="clr-namespace:Nim"
         mc:Ignorable="d"
         Title="Game Of Nim" Height="350" Width="525">
-    <StackPanel>
-        <Button HorizontalAlignment="Left" Width="100" Height="50" Content="Back" Click="BackToDifficulty"/>
+    <StackPanel Background="DarkRed">
+        <Button Margin="10,10,0,0" HorizontalAlignment="Left" Width="60" Height="30" Content="Back" Click="BackToDifficulty"/>
         <StackPanel>
-            <Button Width="200" Height="75" Margin="20" Click="PvP" Content="PvP"/>
-            <Button Width="200" Height="75" Margin="20" Click="PvC" Content="PvC"/>
+            <Label HorizontalAlignment="Center" Margin="0,20,0,0" FontWeight="Bold" FontSize="35" Foreground="Yellow" Content="Select Type"/>
+            <Button Width="200" Height="50" HorizontalAlignment="Center" Margin="0,15,0,5" Foreground="Yellow" BorderThickness="1" BorderBrush="Yellow" Background="DarkRed" Click="PvP" Content="Player vs Player"/>
+            <Button Width="200" Height="50" HorizontalAlignment="Center" Margin="0,15,0,5" Foreground="Yellow" BorderThickness="1" BorderBrush="Yellow" Background="DarkRed" Click="PvC" Content="Player vs Computer"/>
         </StackPanel>
     </StackPanel>
 </Window>

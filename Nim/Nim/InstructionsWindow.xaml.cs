@@ -19,11 +19,19 @@ namespace Nim
     /// </summary>
     public partial class InstructionsWindow : Window
     {
+        /// <summary>
+        /// Initializes the Intructions Window
+        /// </summary>
         public InstructionsWindow()
         {
             InitializeComponent();
         }
 
+        /// <summary>
+        /// Takes you back to the Main Menu
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void BackToMainMenu(object sender, RoutedEventArgs e)
         {
             MainWindow mw = new MainWindow();

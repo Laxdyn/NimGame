@@ -21,11 +21,19 @@ namespace Nim
     /// </summary>
     public partial class MainWindow : Window
     {
+        /// <summary>
+        /// Initializes the MainWindow
+        /// </summary>
         public MainWindow()
         {
             InitializeComponent();
         }
 
+        /// <summary>
+        /// Method for the Start Button
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void StartGameButton(object sender, RoutedEventArgs e)
         {
             DifficultyWindow dw = new DifficultyWindow();
@@ -33,6 +41,11 @@ namespace Nim
             this.Close();
         }
 
+        /// <summary>
+        /// Method to take you to the instructions page
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void InstructionsButton(object sender, RoutedEventArgs e)
         {
             InstructionsWindow iw = new InstructionsWindow();
@@ -40,6 +53,11 @@ namespace Nim
             this.Close();
         }
 
+        /// <summary>
+        /// Method to exit the application
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void ExitGame(object sender, RoutedEventArgs e)
         {
             System.Windows.Application.Current.Shutdown();
